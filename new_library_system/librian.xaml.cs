@@ -39,7 +39,7 @@ namespace new_library_system
                 }
                 db.Books.Add(book);
                 db.SaveChanges();
-                MessageBox.Show("add done succhhhhhhhhessfull");
+                MessageBox.Show("add done sfssucchhhhhhhhessfull");
                 dgBooks.ItemsSource = db.Books.ToList();
             
             }
